@@ -1,0 +1,18 @@
+body {
+    background: url("./assets/bg.png") no-repeat center top;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4); /* dimming */
+    pointer-events: none; /* so clicks go through */
+    z-index: 0;
+}

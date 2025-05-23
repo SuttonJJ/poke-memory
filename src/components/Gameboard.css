@@ -1,0 +1,27 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(200px, 1fr));
+    column-gap: 60px;
+    row-gap: 40px;
+    max-width: 80%;
+    margin: 5% auto;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.score-board {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.poke-title {
+}
