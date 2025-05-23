@@ -1,6 +1,7 @@
 body {
     background: url("./assets/bg.png") no-repeat center top;
     background-size: cover;
+    background-color: black;
     margin: 0;
     padding: 0;
 }
